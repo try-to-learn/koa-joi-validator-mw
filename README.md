@@ -80,7 +80,7 @@ router.post('/login', loginValidator, async ctx => {
 
 For more examples of the (very powerful) validation capabilities of Joi, view the official documentation - https://github.com/hapijs/joi
 
-If the validation fails, an HTTP 400 response will be returned to the client, along with a short human-readable error message explaining why the request was rejected. You can override the validation errors using `errorCallback` function
+If the validation fails, an HTTP 400 response will be returned to the client, along with a short human-readable error message explaining why the request was rejected. You can handle the validation errors by registering `errorCallback` function
 
 ```javascript
 const validator = validate(schema, errorCallback);
