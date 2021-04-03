@@ -1,0 +1,39 @@
+{
+	"name": "koa-joi-validator-mw",
+	"version": "1.0.0",
+	"description": "A npm module to generate request validation middleware for Koa using Joi.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/try-to-learn/koa-joi-validator-mw.git"
+	},
+	"keywords": [
+		"koa",
+		"joi",
+		"koa-joi-validator",
+		"koa-joi-validator-middleware",
+		"joi-validator"
+	],
+	"author": "Arun",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/try-to-learn/koa-joi-validator-mw/issues"
+	},
+	"homepage": "https://github.com/try-to-learn/koa-joi-validator-mw#readme",
+	"devDependencies": {
+		"@types/joi": "^17.2.3",
+		"@types/koa": "^2.13.1",
+		"@types/koa-bodyparser": "^4.3.0",
+		"@types/node": "^14.14.37",
+		"joi": "^17.4.0",
+		"koa": "^2.13.1",
+		"tslib": "^2.1.0",
+		"typescript": "^4.2.3"
+	},
+	"peerDependencies": {
+		"joi": ">= 15.0.0"
+	}
+}
